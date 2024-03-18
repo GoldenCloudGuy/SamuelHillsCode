@@ -1,0 +1,81 @@
+
+#myProfilePicture {
+    height:10vw;
+    width:10vw;
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+.projCont {
+    padding:5px;
+}
+
+.projImg {
+    border: 2px solid white;
+    border-radius: 10px;
+    width:100%;
+    transition: 0.25s;
+}
+
+.projImg:hover {
+    opacity: 50%;
+}
+
+/* Global Styles */
+
+h1,h2,h3,h4,h5,h6,p {
+    color:white;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a   {
+    color:white!important; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: black !important;
+}
+/* Welcome Styles */
+#shCont {
+  background-color: #343a40;
+}
+
+/* About Section Styles */
+#about {
+  background-color: black;
+}
+/* Projects Section Styles */
+#projects {
+  background-color: #343a40;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: black;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+}
+.c-h {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
